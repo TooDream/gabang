@@ -1,0 +1,50 @@
+.constainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  text-align: center;
+}
+.chess {
+  display: block;
+  margin: 20px auto;
+  box-shadow: 5px 5px 5px #b9b9b9, -2px -2px 2px #efefef;
+  cursor: pointer;
+}
+.restart {
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  height: 40px;
+  width: 50px;
+}
+.retreat {
+  background-color: black;
+  color: white;
+  border-radius: 2px 2px;
+  cursor: pointer;
+}
+.cancelBack {
+  color: white;
+  background-color: red;
+  border-radius: 2px 2px;
+  cursor: pointer;
+}
+#blackStatus {
+  position: fixed;
+  top: 150px;
+  left: 50px;
+}
+#redStatus {
+  position: fixed;
+  top: 150px;
+  right: 50px;
+  display: none;
+  color: red;
+}
